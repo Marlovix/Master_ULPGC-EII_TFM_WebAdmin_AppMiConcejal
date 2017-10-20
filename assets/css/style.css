@@ -1,0 +1,82 @@
+html {
+    height: 100%;
+    box-sizing: border-box;
+}
+footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    background-color: #efefef;
+    text-align: center;
+}
+table.dataTable tbody td {
+    vertical-align: middle !important;
+}
+th.center-th, td.center-th{
+    max-width: 750px;
+}
+
+.invisible_input:parent{
+    display: block;
+}
+
+.center_img, .center-th {
+    text-align: center;
+}
+
+.alert-sm {
+    padding: 5px !important;
+    margin-top: 5px;
+}
+.navbar{
+    margin-bottom: 0 !important;
+    background-color: #337ab7 !important;
+    color: #fff !important;
+}
+.navbar-header{
+    text-align: center;
+    background-color: #f8f8f8;
+}
+.navbar-brand{
+    padding: 9px !important;
+}
+a.dropdown-toggle{
+    color: #fff;
+}
+.read-only-input:read-only{
+    background-color: #fff !important;
+}
+.dt-buttons{
+    margin-bottom: 5px;
+}
+.input-error{
+    padding: 5px 10px 5px 10px !important;
+    margin-top: 5px;
+}
+.fa-1x{
+    font-size: 1.5em !important;
+    color: red;
+    cursor: pointer;
+}
+.dataTables_filter label{
+    margin-left: 5px;
+}
+input[type="text"]:disabled { /* Para el File Input */
+    background-color: #FFFFFF;
+}
+
+td img{
+    max-width: 100px;
+    max-height: 50px;
+}
+
+@media screen and (min-width: 768px) {
+    .sidebar{
+        width: 215px !important;
+    }
+    #page-wrapper{
+        margin: 0 0 0 215px !important;
+    }
+}

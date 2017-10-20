@@ -1,0 +1,12 @@
+{
+    "description": "The CodeIgniter framework",
+    "name": "codeigniter/framework",
+    "type": "project",
+    "homepage": "https://codeigniter.com",
+    "license": "MIT",
+    "require": {
+        "php": ">=5.2.4",
+        "bitmannl/codeigniter-modular-extensions": "dev-master",
+        "chriskacerguis/codeigniter-restserver": "dev-master"
+    }
+}
